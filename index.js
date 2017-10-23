@@ -1,7 +1,7 @@
 'use strict';
 
 const Alexa = require('alexa-sdk');
-const APP_ID = 'amzn1.ask.skill.b3d16217-aa6e-42e9-a4db-f02219b3b3bf';
+const APP_ID // removed from public
 
 const populations = require('./data/populations')
 const countries_de = require('./data/countries_de')
