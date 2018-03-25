@@ -1,0 +1,12 @@
+service: population-skill
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: eu-west-1
+
+functions:
+  population-handler:
+    handler: index.handler
+    name: population-handler
+    events:
+      - alexaSkill
